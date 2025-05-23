@@ -1,0 +1,268 @@
+@font-face {
+    font-family: blood;
+    src: url(../ASSETS/FONTS/flesh-and-blood-font/Fleshandblood-MVA5x.ttf);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Teko:wght@300..700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    padding: 24px var(--Padding-X---Grid, 160px);
+    margin: auto;
+    max-width: 1120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+html{
+    font-family: Inter, sans-serif;
+    font-weight: 500;
+}
+
+.bloodtit{
+    font-size: 4rem;
+}
+
+ul{
+    list-style: none;
+}
+
+.names{
+    text-align: right;
+    color: #C5A8AA;
+}
+
+.cabecalho{
+    font-family: blood;
+    text-align: center;
+    font-weight: 600;
+    background-color: #1A0B06;
+}
+
+body{
+    background: #34302F;
+    color: #FFFFFF;
+}
+
+.intro {
+    display: flex;
+    align-items: center; /* Centraliza verticalmente */
+    justify-content: space-between;
+    min-height: 50vh;
+    width: 100%;
+    max-width: 1120px 600px;
+    margin: auto;
+    padding: 0rem 0rem 0rem 2rem;
+    gap: 2rem;
+    box-sizing: border-box;
+}
+
+
+
+.introcontent {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    width: 600px;
+}
+
+
+.finalmente{
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #C5A8AA;
+}
+
+h1{
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 1.2;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #1A0B06;
+    margin: 1rem 0;
+    width: 600px;
+}
+
+.introsubtitle {
+    color: #aeaeae;
+    font-size: 20px;
+    font-weight: 400;
+    max-width: 500px;
+}
+
+
+.figintro {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    min-width: 1200px;
+    flex: 1.2;
+}
+
+.figintro > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.imgintro {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+
+.principal{
+    background-color: #7F3335;
+}
+
+.evocabecalho{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.evotitle{
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.evolucao{
+    display: flex;
+    flex-direction: column;
+    max-width: 1120px;
+    padding: 3rem;
+    margin:auto
+}
+
+.containerpai{
+    padding: 2rem 10rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.cardcoiso{
+    background: #1A0B06;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    flex-basis: 29rem;
+}
+
+.cabeçalhobrabo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.detalhesinsanos{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.cardtitle{
+    color: #7F3335;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.date{
+    color: #C5A8AA;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.textao🥱{
+    color: #c1c1c1;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.firulas{
+    color: #C5A8AA;
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.figcontent > img{
+    width: 40rem;
+    border-radius: 0.5rem;
+}
+
+footer{
+    padding: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #1A0B06;
+}
+
+.chettos{
+    color: #C5A8AA;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.bloodbornechega{
+    font-family: blood;
+    font-weight: 600;
+}
+
+@media (max-width: 768px) {
+    .intro {
+        flex-direction: column;
+        padding: 2rem 1rem;
+        gap: 2rem;
+        text-align: center;
+        align-items: center;
+    }
+
+    .introcontent {
+        flex: 1 1 100%;
+        align-items: center;
+    }
+
+    .introcontent h1 {
+        font-size: 32px;
+    }
+
+    .introsubtitle {
+        font-size: 16px;
+    }
+
+    .figintro {
+        flex: 1 1 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .figintro img {
+        width: 100%;
+        height: auto;
+        object-fit: contain;
+        max-width: 300px;
+    }
+}
